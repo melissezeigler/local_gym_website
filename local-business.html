@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="local-business.css">
+<title>Future Local Business</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Alaskan Wanderers</a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="na-item">
+                        <a href="#aboutus" class="nav-link">About Us</a>
+                    </li>
+                    <li class="na-item">
+                        <a href="#whatwedo" class="nav-link">What We Do</a>
+                    </li>
+                    <li class="na-item">
+                        <a href="#itineraries" class="nav-link">Itineraries</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showfeatures -->
+    <section class="bg-dark text-light text-center text-sm-start p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Join us for a local hike or everywhere around Alaska.</h1>
+                    <p class="lead">
+                        We will make your trip memorable and worth every penny!
+                    </p>
+                    <button class="btn btn-primary btn-lg" 
+                    data-bs-toggle="modal" data-bs-target="#signup">Start Here</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="mountain-baldy.JPG" alt="Mount Baldy">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="aboutus" class="p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="kenai.JPG" class="img-fluid" alt="Family Picture">
+                </div>
+                <div class="col-md p-5">
+                    <h2>About Us</h2>
+                    <p class="lead">
+                        We're family owned and guided tours and backpacking business in Southeast Alaska. 
+                        Our family has been hiking almost around the different parts of Alaska and to small towns that only planes are only accessible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What we do -->
+    <section id="whatwedo" class="bg-dark text-light p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>What We Do</h2>
+                    <p class="lead">
+                        We do backpacking, camping, day trips, hiking, kayaking, glacier cruise, and Chasing the Aurora Borealis.
+                        Our all-inclusive trip styles comes with an exceptional food, breweries, or local coffee shops and we also support our own local business friends.
+                        Lastly, our main goal is to achieve your unforgettable trip and make your memories last forever. 
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img src="whatwedo.jpg" class="img-fluid" alt="Family Picture at the Mine State Park">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Itineraries -->
+    <section id="itineraries">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md p-5">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top" src="glacier-hike.JPG" alt="Glacier Hike">
+                        <div class="card-body">
+                            <h5 class="card-title">Glacier Hike</h5>
+                            <p class="card-text">A long and steep hike to the glacier 
+                                                and a chance to see the icebergs.</p>
+                            <a href="#" class="btn btn-danger">Hard</a>
+                        </div>
+                    </div>
+                <div class="col-md">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top" src="ice-cave.jpg" alt="Ice Cave">
+                        <div class="card-body">
+                            <h5 class="card-title">Ice Cave Hike</h5>
+                            <p class="card-text">A hike to the ice cave 
+                                                    with a spectular crystal formations.</p>
+                            <a href="#" class="btn btn-primary">Intermediate</a>
+                        </div>
+                    </div>
+                <div class="col-md">
+                    <div class="card" style="width: 22rem;">
+                        <img class="card-img-top" src="glacier-cruise.jpg"Glacier Cruise">
+                        <div class="card-body">
+                            <h5 class="card-title">Glacier Cruise</h5>
+                            <p class="card-text">Once in a lifetime trip to Alaska Glaciers, 
+                                                Wildlife and chance to see an Ice Calving Event.</p>
+                            <a href="#" class="btn btn-warning">Easy</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center position-relative p-5">
+        <div class="container">
+            <p class="lead">My dream business in the future and eveything in this website is for project purposes only.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Start Here -->
+    <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="signup">New message</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="signup"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
